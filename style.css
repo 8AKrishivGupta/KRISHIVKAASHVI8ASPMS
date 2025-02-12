@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+header {
+    background-color: #ff69b4; /* Pink header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #add8e6; /* Light blue hover effect */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff69b4; /* Pink headings */
+    border-bottom: 2px solid #add8e6; /* Light blue underline */
+    padding-bottom: 5px;
+}
+
+/* Menu Section */
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    background-color: #e6f7ff; /* Light blue background for menu items */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#menu ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#menu h3 {
+    color: #ff69b4; /* Pink subheadings */
+    border-bottom: 2px solid #add8e6; /* Light blue underline */
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* Review Section */
+#reviews-container {
+    background-color: #e6f7ff; /* Light blue background for reviews */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#review-form input,
+#review-form textarea,
+#reservation-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #add8e6; /* Light blue border */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#review-form button,
+#reservation-form button {
+    background-color: #04345e; /* Pink button */
+    color: #95ecf1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#review-form button:hover,
+#reservation-form button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+/* Reservation Section
